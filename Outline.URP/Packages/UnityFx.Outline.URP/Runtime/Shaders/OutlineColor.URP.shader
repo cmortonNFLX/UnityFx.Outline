@@ -7,7 +7,7 @@ Shader "Hidden/UnityFx/OutlineColor.URP"
 {
 	HLSLINCLUDE
 
-		#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+		#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/MetaPass.hlsl"
 		#include "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/Common.hlsl"
 
 		TEXTURE2D(_MainTex);
